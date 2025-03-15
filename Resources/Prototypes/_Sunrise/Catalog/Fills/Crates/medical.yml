@@ -7,3 +7,30 @@
   - type: StorageFill
     contents:
       - id: VariantCubeBoxSunrise
+
+- type: entity
+  id: CrateMedicalGamma
+  parent: CrateCommandSecure
+  name: Военная медицина Гамма кода
+  description: Содержит медицинские препараты для медиков, во время Чрезвычайных ситуаций.
+  components:
+  - type: StorageFill
+    contents:
+    - id: JugEphedrine
+    - id: JugPyrazine
+    - id: JugDexalinPlus
+    - id: JugDiphenhydramine
+    - id: JugLacerinol
+    - id: JugBruizine
+    - id: JugPuncturase
+
+- type: entity
+  id: CrateMedicalHR
+  parent: CrateCommandSecure
+  name: Медицина для набора персонала
+  description: Содержит медицинские препараты для набора персонала.
+  components:
+  - type: StorageFill
+    contents:
+    - id: JugStonium
+    - id: JugAphrodesiac

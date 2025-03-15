@@ -444,3 +444,138 @@
         reagents:
         - ReagentId: WeldingFuel
           Quantity: 200
+
+- type: entity
+  parent: Jug
+  name: кувшин (Пунктураз)
+  id: JugPuncturase
+  description: 
+  components:
+    - type: Label
+      currentLabel: 
+    - type: SolutionContainerManager
+      solutions:
+        beaker:
+          reagents:
+            - ReagentId: Puncturase
+              Quantity: 200
+
+- type: entity
+  parent: Jug
+  name: кувшин (Бруизин)
+  id: JugBruizine
+  description: 
+  components:
+    - type: Label
+      currentLabel: 
+    - type: SolutionContainerManager
+      solutions:
+        beaker:
+          reagents:
+            - ReagentId: Bruizine
+              Quantity: 200
+
+- type: entity
+  parent: Jug
+  name: кувшин (Лацеринол)
+  id: JugLacerinol
+  description: 
+  components:
+    - type: Label
+      currentLabel: 
+    - type: SolutionContainerManager
+      solutions:
+        beaker:
+          reagents:
+            - ReagentId: Lacerinol
+              Quantity: 200
+
+- type: entity
+  parent: Jug
+  name: кувшин (Дифенгидрамин)
+  id: JugDiphenhydramine
+  description: 
+  components:
+    - type: Label
+      currentLabel: 
+    - type: SolutionContainerManager
+      solutions:
+        beaker:
+          reagents:
+            - ReagentId: Diphenhydramine
+              Quantity: 200
+
+- type: entity
+  parent: Jug
+  name: кувшин (Дексалин Плюс)
+  id: JugDexalinPlus
+  description: 
+  components:
+    - type: Label
+      currentLabel: 
+    - type: SolutionContainerManager
+      solutions:
+        beaker:
+          reagents:
+            - ReagentId: DexalinPlus
+              Quantity: 200
+
+- type: entity
+  parent: Jug
+  name: кувшин (Пиразин)
+  id: JugPyrazine
+  description: 
+  components:
+    - type: Label
+      currentLabel: 
+    - type: SolutionContainerManager
+      solutions:
+        beaker:
+          reagents:
+            - ReagentId: Pyrazine
+              Quantity: 200
+
+- type: entity
+  parent: Jug
+  name: кувшин (Эфедрин)
+  id: JugEphedrine
+  description: 
+  components:
+    - type: Label
+      currentLabel: 
+    - type: SolutionContainerManager
+      solutions:
+        beaker:
+          reagents:
+            - ReagentId: Ephedrine
+              Quantity: 200
+
+- type: entity
+  parent: Jug
+  name: кувшин (Стониум)
+  id: JugStonium
+  description: 
+  components:
+    - type: Label
+      currentLabel: 
+    - type: SolutionContainerManager
+      solutions:
+        beaker:
+          reagents:
+            - ReagentId: Stonium
+              Quantity: 200
+
+- type: entity
+  parent: Jug
+  name: кувшин (Афродезиак)
+  id: JugAphrodesiac
+  description: 
+  components:
+    - type: Label
+      currentLabel: 
+    - type: SolutionContainerManager
+      solutions:
+        beaker:
+          reagents:
+            - ReagentId: Aphrodesiac
+              Quantity: 200
